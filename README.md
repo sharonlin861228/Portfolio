@@ -3,7 +3,6 @@
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=nextdotjs)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![image](https://github.com/user-attachments/assets/c7dde192-6716-4b57-887e-dcadf4daa6d5)
 
 ### Welcome to my portfolio project! This project showcases my skills and experience in web development using modern technologies like Next.js, Tailwind CSS, Framer Motion, and more. 
 
@@ -63,18 +62,3 @@ This project includes several components and utilities that you can use and modi
 - `app/`: Contains the Next.js app.
 - `public/`: Contains public assets such as images and videos.
 - `lib/`: Contains utility/data.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests. Any contributions, whether it be improvements, bug fixes, or new features, are greatly appreciated!
-Please make sure to read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) and the [Contribution Guidelines](CONTRIBUTE.md) before contributing.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you want to get in touch, you can reach me at [Maksym Azimov](mailto:azimov.workspace@gmail.com).
-
-Thank you for checking out my portfolio project!
