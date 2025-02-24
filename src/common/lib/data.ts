@@ -79,15 +79,13 @@ export const projectsData = [
   {
     title: 'DATA ANALYSIS (SQL)',
     description:
-      'A platform for decentralized file storage with robust user management.',
-    tags: [
+    'This project involves a comprehensive analysis of Netflix movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset.',
+        tags: [
       'SQL',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
+      'Data Analysis',
+      'Data Cleaning',
+      'Database Management',
+      'Classification',
     ],
     imageUrl: netflixLogo,
     link: 'https://github.com/bbyc4kes/file-drive',
@@ -102,6 +100,7 @@ export const projectsData = [
       'Framer Motion',
       'Cloudinary',
       'React Email',
+      'Shadcn',
       'Tailwind',
     ],
     imageUrl: da,
@@ -138,6 +137,14 @@ export const projectsData = [
     ],
     imageUrl: surgeImg,
     link: 'https://github.com/bbyc4kes/surge',
+  },
+  {
+    title: 'CampWithUs',
+    description:
+      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
+    imageUrl: campwithusImg,
+    link: 'https://github.com/bbyc4kes/campwithus',
   },
   {
     title: 'CampWithUs',

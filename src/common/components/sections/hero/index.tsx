@@ -24,11 +24,11 @@ export default function Hero() {
         id="home"
         ref={ref}
       >
-        <div
+        {/* <div
           className={
             "absolute left-0 top-0 h-screen w-full dark:bg-[#8a7e7e7c]"
           }
-        ></div>
+        ></div> */}
         <video
           width="480"
           height="720"
@@ -44,35 +44,31 @@ export default function Hero() {
 
         <div className="container flex flex-col items-start justify-center tracking-wide text-black dark:text-white">
           <div className="container relative flex h-full w-full flex-col">
-            <div className='col-span-7' place-self-center>
-            </div>
-            <h1 className='text-white mb-4  text-4xl sm:text-5xl lg:text-6xl font-extrabold sm:text-left'>
+            <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold sm:text-left'>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
                 Hello, I‘m{" "}
               </span>
             <br></br>
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                'Sharon',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                'Product Manager',
-                1000,
-                'Project Manager',
-                1000,
-                'Full-Stack Developer',
-                1000
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+                <TypeAnimation
+                  sequence={[
+                    'Sharon',
+                    1000,
+                    'Product Manager',
+                    1000,
+                    'Project Manager',
+                    1000,
+                    'Full-Stack Developer',
+                    1000
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                />
             </h1>
             
-                {/* </a> */}
-              </div>
+          </div>
               
-
+      <div className="mt-8"></div>        
         <div className="flex gap-4 -z-0">
           <a
             className="group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-darkBg px-7 py-3 text-white outline-none transition hover:bg-lightBeige hover:text-black hover:dark:text-black sm:w-auto"
@@ -95,7 +91,7 @@ export default function Hero() {
 
   <a
     className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-black transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-    href="https://www.linkedin.com/in/maksym-azimov/"
+    href="https://www.linkedin.com/in/sharon-lin-896aa91b6/"
     target="_blank"
   >
     <Linkedin />
@@ -109,15 +105,15 @@ export default function Hero() {
                 </a>
 </div>
                
-              <div className='col-span-5 mt-4 lg:mt-0'>
-  <div className='rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ml-auto'>
-    <Image
-      src={portfolioImg}
-      alt='hero image1'
-      className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-    />
-  </div>
-</div>
+                <div className='ml-auto col-span-5 -mt-0 lg:-mt-8'> {/* Negative margin to move it up further */}
+                  <div className='rounded-full w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative ml-auto'>
+                    <Image
+                      src={portfolioImg}
+                      alt='hero image1'
+                      className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                    />
+                  </div>
+                </div>
 
             {/* </motion.div> */}
           </div>

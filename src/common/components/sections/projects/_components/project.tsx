@@ -40,7 +40,7 @@ export default function Project({
         >
           <div className="flex h-full flex-col px-5 pb-7 pt-4 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold uppercase"> {title}</h3>
-            <p className="mt-2 leading-relaxed">{description}</p>
+            <p className="text-base mt-2 leading-relaxed">{description}</p>
             <ul className="mt-4 flex flex-wrap gap-2 sm:mt-auto">
               {tags.map((tag, index) => (
                 <li
