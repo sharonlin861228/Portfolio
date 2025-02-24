@@ -7,6 +7,7 @@ import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
+import netflixLogo from '@/../public/images/netflix.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import da from '@/../public/images/da.png';
 import {
@@ -76,11 +77,11 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'FileDrive',
+    title: 'DATA ANALYSIS (SQL)',
     description:
       'A platform for decentralized file storage with robust user management.',
     tags: [
-      'React',
+      'SQL',
       'TypeScript',
       'Next.js',
       'Convex',
@@ -88,7 +89,7 @@ export const projectsData = [
       'Shadcn',
       'Tailwind',
     ],
-    imageUrl: filedriveImg,
+    imageUrl: netflixLogo,
     link: 'https://github.com/bbyc4kes/file-drive',
   },
   {
@@ -107,10 +108,10 @@ export const projectsData = [
     link: 'https://github.com/bbyc4kes/portfolio',
   },
   {
-    title: 'Audit Master',
+    title: 'CHATBOT',
     description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
     tags: [
-      'React',
+      'Python',
       'TypeScript',
       'Next.js',
       'Tailwind',
