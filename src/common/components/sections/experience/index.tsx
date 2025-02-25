@@ -17,6 +17,7 @@ import { Tag } from 'primereact/tag';
 
 export default function Experience() {
   const { ref } = useSectionInView('experience');
+  
   return (
     <section
     id="experience"
@@ -30,6 +31,7 @@ export default function Experience() {
     ></section> */}
 
     <SectionHeading>My experience</SectionHeading>
+    
     {/* 父容器：左右佈局 */}
         <div className="my-36 grid grid-col-1 gap-0 sm:grid-cols-2">
           {/* <div class="my-24 grid grid-cols-1 gap-6 sm:grid-cols-2"> */}
@@ -108,6 +110,7 @@ export default function Experience() {
             
             </ul>
                 </div>
+                
             
                   
                 <hr />
@@ -183,11 +186,15 @@ export default function Experience() {
                   tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
                   iOS and other Apple products and services
                 </div>
+                
               </li>
             </ul>
+            
           </div>
+          
+         
         </div>
-    <SectionDivider />
+        <SectionDivider />
   </section>
   );
 }
