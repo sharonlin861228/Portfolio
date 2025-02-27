@@ -30,6 +30,10 @@ export const links = [
     id: 'projects',
   },
   {
+    name: 'Products',
+    id: 'products',
+  },
+  {
     name: 'Experience',
     id: 'experience',
   },
@@ -155,6 +159,90 @@ export const projectsData = [
     link: 'https://github.com/bbyc4kes/campwithus',
   },
 ] as const;
+
+
+export const productsData = [
+  {
+    title: 'Ideation & Research',
+    description:
+    ``,
+        tags: [
+      'SQL',
+      'Data Analysis',
+      'Data Cleaning',
+      'Database Management',
+    ],
+    imageUrl: netflixLogo,
+    link: 'https://github.com/bbyc4kes/file-drive',
+  },
+  {
+    title: 'Planning & Strategy',
+    description: ``,
+    tags: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'Framer Motion',
+      'Cloudinary',
+      'React Email',
+      'Shadcn',
+      'Tailwind',
+    ],
+    imageUrl: da,
+    link: 'https://github.com/bbyc4kes/portfolio',
+  },
+  {
+    title: 'Design & Development',
+    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
+    tags: [
+      'Python',
+      'TypeScript',
+      'Next.js',
+      'Tailwind',
+      'OpenAI',
+      'SCRUM Methodology',
+      'End-to-End Development',
+    ],
+    imageUrl: auditMasterImg,
+    link: 'https://auditmaster.ai/',
+  },
+  {
+    title: 'Testing & Quality Assurance',
+    description:
+      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
+    tags: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'MySQL',
+      'Clerk',
+      'Stripe Connect',
+      'Shadcn',
+      'Tailwind',
+    ],
+    imageUrl: surgeImg,
+    link: 'https://github.com/bbyc4kes/surge',
+  },
+  {
+    title: 'Launch & Go-To-Market Strategy',
+    description:
+      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
+    imageUrl: campwithusImg,
+    link: 'https://github.com/bbyc4kes/campwithus',
+  },
+  {
+    title: ' Post-Launch & Continuous Improvement',
+    description:
+      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
+    imageUrl: campwithusImg,
+    link: 'https://github.com/bbyc4kes/campwithus',
+  },
+] as const;
+
+
+
 
 export const skillsData = [
   ['JavaScript', '/svgs/javascript-js.svg'],
