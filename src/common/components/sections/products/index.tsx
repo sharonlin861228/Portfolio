@@ -23,12 +23,12 @@ export default function Products() {
       id="products"
       ref={ref}
     >
-      <SectionHeading>Products</SectionHeading>
+      {/* <SectionHeading>Products</SectionHeading> */}
 
       {/* <div className="px-5 pb-7 pt-4 grid grid-cols-1 gap-6 sm:grid-cols-2"> */}
 
          {/* 父容器：左右佈局 */}
-         <div className="my-36 grid grid-col-1 gap-0 sm:grid-cols-2">
+         <div className="mb-24 mt-36 grid grid-col-1 gap-0 sm:grid-cols-2">
           {/* <div class="my-24 grid grid-cols-1 gap-6 sm:grid-cols-2"> */}
           
           {/* 左邊 PDF 預覽 */}
@@ -63,7 +63,7 @@ export default function Products() {
             </div>
       
           {/* 右邊補充內容 */}
-          <div className="w-2/3 space-y-4 ml-40">
+          <div className="w-2/3 ml-40">
         {productsData.map((project, index) => (
           <React.Fragment key={index}>
             <Product {...project} />
@@ -133,7 +133,7 @@ export default function Products() {
 
 
       
-      <div className="mt-[50px]">
+      <div className="mt-[0px]">
         <Button variant="outline" size="lg" style={{ fontSize: '1.5rem', padding: '20px 30px' }}>
           <Link href="https://github.com/sharonlin861228" style={{ fontSize: '1.5rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
             Load More <Github style={{ width: '24px', height: '24px' }} />

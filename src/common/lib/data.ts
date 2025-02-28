@@ -10,6 +10,17 @@ import portfolioImg from '@/../public/images/portfolio.png';
 import netflixLogo from '@/../public/images/netflix.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import da from '@/../public/images/da.png';
+import idea from '@/../public/images/idea.png';
+import strategy from '@/../public/images/strategy.png';
+import lightbulb from '@/../public/images/lightbulb.png';
+import testing from '@/../public/images/chart.png';
+import launch from '@/../public/images/startup.png';
+import commercial from '@/../public/images/margin.png';
+import design from '@/../public/images/web-design.png';
+
+
+
+
 import {
   BookIcon,
   BriefcaseBusinessIcon,
@@ -167,76 +178,78 @@ export const productsData = [
     description:
     ``,
         tags: [
-      'SQL',
-      'Data Analysis',
+      'PERSONA',
+      'pain points',
       'Data Cleaning',
       'Database Management',
     ],
-    imageUrl: netflixLogo,
-    link: 'https://github.com/bbyc4kes/file-drive',
+    imageUrl: lightbulb,
+    link: "https://www.flaticon.com/free-icons/idea"
   },
   {
-    title: 'Planning & Strategy',
+    title: 'Requirement & Planning',
     description: ``,
     tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Cloudinary',
-      'React Email',
-      'Shadcn',
-      'Tailwind',
+      'USER JOURNEY',
+      'WAIREFRAME',
+      'USER FLOW',
+      'prd',
+      'mvp',
+      'alpha',
+      'beta',
     ],
-    imageUrl: da,
+    imageUrl: strategy,
     link: 'https://github.com/bbyc4kes/portfolio',
   },
   {
     title: 'Design & Development',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
+    description: ``,
     tags: [
-      'Python',
-      'TypeScript',
-      'Next.js',
-      'Tailwind',
-      'OpenAI',
-      'SCRUM Methodology',
-      'End-to-End Development',
+      'UIUX',
+      'jira',
+      'agile',
+      'scrum',
+      'sprint',
+      'STORIES',
+      'GIT'
     ],
-    imageUrl: auditMasterImg,
+    imageUrl: design,
     link: 'https://auditmaster.ai/',
   },
   {
-    title: 'Testing & Quality Assurance',
+    title: 'Launch & Go-To-Market',
     description:
-      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
+      '',
     tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
+      'unit testing',
+      'INTEGRATION testing',
     ],
-    imageUrl: surgeImg,
+    imageUrl: launch,
     link: 'https://github.com/bbyc4kes/surge',
   },
   {
-    title: 'Launch & Go-To-Market Strategy',
+    title: 'Testing & Analytics',
     description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
-    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
-    imageUrl: campwithusImg,
+      '',
+    tags: [
+      'metrics', 
+      'kpi', 
+      'analytics', 
+    ],
+    imageUrl: testing,
     link: 'https://github.com/bbyc4kes/campwithus',
   },
   {
-    title: ' Post-Launch & Continuous Improvement',
+    title: 'Commertialization',
     description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
-    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
-    imageUrl: campwithusImg,
+      '',
+    tags: [
+      'product analytics', 
+      'SQL', 
+      'A/B testing', 
+      'Iteration', 
+      'python'],
+    imageUrl: commercial,
     link: 'https://github.com/bbyc4kes/campwithus',
   },
 ] as const;
