@@ -42,22 +42,37 @@ export default function Hero() {
           <source src="/layout.mp4"/>
         </video>
 
+        <div className="mb-24 mt-36 grid sm:grid-cols-2">
+          {/* <div class="my-24 grid grid-cols-1 gap-6 sm:grid-cols-2"> */}
+          
+          {/* 左邊 PDF 預覽 */}
+            <div className="w-full space-y-4">
         <div className="container flex flex-col items-start justify-center tracking-wide text-black dark:text-white">
+          
           <div className="container relative flex h-full w-full flex-col">
-            <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold sm:text-left'>
+          {/* <div className="container relative flex h-full w-full flex-col">
+            <h1 className='text-white mb-20 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left inline-block'>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
                 Hello, I‘m{" "}
               </span>
-            <br></br>
+            </h1>
+          </div> */}
+            <div className="container absolute mb-20 flex h-full w-full flex-col">
+            <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left inline-block'>
+              <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+                Hello, I‘m{" "}
+              </span> 
+            </h1>
+            <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left'>
                 <TypeAnimation
                   sequence={[
                     'Sharon',
                     1000,
-                    'Product Manager',
+                    'jwifjeklfl',
                     1000,
-                    'Project Manager',
+                    'Pqwertyuio;lkjhrgevbwankml,',
                     1000,
-                    'Full-Stack Developer',
+                    'hihi',
                     1000
                   ]}
                   wrapper="span"
@@ -65,46 +80,49 @@ export default function Hero() {
                   repeat={Infinity}
                 />
             </h1>
+            </div>
             
           </div>
-              
-      <div className="mt-8"></div>        
-        <div className="flex gap-4 -z-0">
-          <a
-            className="group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-darkBg px-7 py-3 text-white outline-none transition hover:bg-lightBeige hover:text-black hover:dark:text-black sm:w-auto"
-            onClick={(e) => {
-              smoothScrollTo({ e, id: "contact" });
-              setActiveSection("contact");
-              setTimeOfLastClick(Date.now());
-                            }}
-          >
+            
+        <div className="flex gap-4 -z-0 mt-40 ml-16">
+                <a
+                  className="group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-darkBg px-7 py-3 text-white outline-none transition hover:bg-lightBeige hover:text-black hover:dark:text-black sm:w-auto"
+                  onClick={(e) => {
+                    smoothScrollTo({ e, id: "contact" });
+                    setActiveSection("contact");
+                    setTimeOfLastClick(Date.now());
+                                  }}
+                >
                   <span>Contact me here</span>
                 </a>
      
-  <a
-    className="borderBlack group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-white px-7 py-3 text-black outline-none transition hover:bg-gray-100 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:w-auto"
-    href="/CV_Sharon.pdf"
-    download
-  >
-    <span>Download CV</span>
-  </a>
+                <a
+                  className="borderBlack group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-white px-7 py-3 text-black outline-none transition hover:bg-gray-100 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:w-auto"
+                  href="/CV_Sharon.pdf"
+                  download
+                >
+                  <span>Download CV</span>
+                </a>
 
-  <a
-    className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-black transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-    href="https://www.linkedin.com/in/sharon-lin-896aa91b6/"
-    target="_blank"
-  >
-    <Linkedin />
-  </a>
-  <a
+                <a
+                  className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-black transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
+                  href="https://www.linkedin.com/in/sharon-lin-896aa91b6/"
+                  target="_blank"
+                >
+                  <Linkedin />
+                </a>
+
+                <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-gray-700 transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
                   href="https://github.com/bbyc4kes"
                   target="_blank"
                 >
                   <Github />
                 </a>
-</div>
-               
+        </div>
+      </div>     
+      </div>
+          <div className="w-2/3 ml-40">  
                 <div className='ml-auto col-span-5 -mt-0 lg:-mt-8'> {/* Negative margin to move it up further */}
                   <div className='rounded-full w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative ml-auto'>
                     <Image
@@ -117,8 +135,11 @@ export default function Hero() {
 
             {/* </motion.div> */}
           </div>
-        {/* </div> */}
+        </div>
+
       </section>
+
+      
       
       <SectionDivider />
     </>
